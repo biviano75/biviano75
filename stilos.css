@@ -1,0 +1,126 @@
+/*Estilos generales */
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #f5f5f5;
+ }
+
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 20px;
+ }
+
+ /* Estilos para el encabezado */
+ header {
+    background-color: #7fd311;
+    color: #0f0f0f;
+    padding: 15px;
+    }
+   
+   /* header img{
+    height: 50px;
+    }*/
+   
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+   
+    nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+    }
+   
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+   
+    /* Estilos para el contenido principal */
+    main {
+    display: flex;
+    flex-direction: row;
+    }
+   
+    aside {
+    flex-basis: 20%;
+    background-color: #eee;
+    padding: 20px;
+    }
+
+section {
+    flex-basis: 80%;
+    padding: 20px;
+    background-color: #0ba1ac;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }   
+
+    h2 {
+    color: #333;
+    margin-top: 0;
+    }
+    p {
+        color: #552c22;
+        margin-top: 0;
+        }
+/* Estilos para el pie de página */
+    footer {
+    background-color: #7fd311;
+    color: #111010;
+    padding: 20px;
+    text-align: center;
+    }
+
+    footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    }
+
+    footer ul li {
+    margin-right: 10px;
+    }
+    footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+   
+    /* Estilos para el formulario de búsqueda */
+    aside form {
+    margin-bottom: 20px;
+    }
+   
+    aside input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    }
+   
+    aside button[type="submit"] {
+    background-color: #000;
+    color: #f30909;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    }
+   
+    aside button[type="submit"]:hover {
+    background-color: #555;
+    }
+   
+    /* Estilos para los enlaces */
+    a {
+    color: #333;
+    }
+    a:hover {
+    text-decoration: underline;
+    }
